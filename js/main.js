@@ -1,7 +1,8 @@
 const app = Vue.createApp({
     data() {
         return {
-            title: 'Hello Vue!'
+            title: 'Hello Vue!',
+            image: '../img/micio.jpg'
         }
     }
 })
