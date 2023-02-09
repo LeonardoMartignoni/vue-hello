@@ -15,14 +15,16 @@
 	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
 	<!-- Custom JS -->
-	<script type="text/javascript" src="./js/main.js"></script>
+	<script type="text/javascript" src="./js/main.js" defer></script>
 
 	<!-- Custom Style -->
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
+	<div id="root">
+		<h1> {{ title }} </h1>
+	</div>
 </body>
 
 </html>
