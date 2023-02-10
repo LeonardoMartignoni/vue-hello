@@ -2,7 +2,7 @@ const app = Vue.createApp({
     data() {
         return {
             title: 'Hello Vue!',
-            image: '../img/micio.jpg'
+            image: './img/micio.jpg'
         }
     }
 })
